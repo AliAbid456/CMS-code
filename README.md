@@ -1,2 +1,2 @@
 # CMS-code
-CMS Program in C++ language.
+Campus Management System in C++ language.
