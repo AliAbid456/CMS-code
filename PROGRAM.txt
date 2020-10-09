@@ -1,0 +1,670 @@
+
+#include<iostream>
+#include<cmath>
+#include<math.h>
+#include<iomanip>
+#include<string>
+#include<sstream>
+
+using namespace std;
+
+void attendence();
+
+void oht();
+void aaa();
+void eee();
+void qqq();
+
+
+struct student {
+	string name;
+	string address;
+	long long int phone;
+	string category;
+	string department;
+	int degree;
+};
+
+int main()
+{
+	string ID;
+	student a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+	
+	cout << "\n                           WELCOME TO ONLINE NUST STUDENT SERVICE CENTER.\n\n ";
+	for (int y = 3; y >= 0; y--) {
+		cout << "PLEASE ENTER LOGIN ID: ";
+		cin >> ID;
+	
+		if (ID == "hateeq.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "HAMZA ATEEQ";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+
+			a1.address = "NFC LAHORE PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+
+			a1.phone = 923329095564;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+		}
+		else if (ID == "sbshabir.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "SANNAN BIN SHABIR";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "VALENCIA LAHORE PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923321785434;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "abid.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "ALI ABID";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "SAMANABAD LAHORE PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923331687432;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "anaeembhatti.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "ABDULLAH NAEEM BHATTI";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "SHUJABAD ROAD MULTAN PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923047044095;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "raiaahmad.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "RAI ALI AHMAD";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "SARGHODA PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923046231441;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "abdtauqeer.CEME@#1234") {
+			cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "ABDULLAH TAUQEER";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "SIALKOT PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923443237133;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+		}
+		else if (ID == "abdshahid.CEME@#1234") {
+		cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "ABDULLAH SHAHID";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "MULTAN PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923041218650;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+		}
+		else if (ID == "mfaizan.CEME@#1234") {
+		cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "MIA FAIZAN";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "DEFENCE LAHORE PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923124896330;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "fbutt.CEME@#1234") {
+		cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "FAUZAN BUTT";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "RAWALPINDI PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923335659432;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+
+		}
+		else if (ID == "aahmasood.CEME@#1234") {
+		cout << "                                           STUDENT INFO\n\n";
+
+			a1.name = "AHMAD MASOOD";
+			cout << "\nNAME OF STUDENT :" << a1.name << endl;
+			a1.address = "GOJRA PAKISTAN";
+			cout << "ADDRESS         :" << a1.address << endl;
+			a1.phone = 923005440072;
+			cout << "PHONE NUMBER    :" << a1.phone << endl;
+			a1.category = "NC";
+			cout << "CATEGORY        :" << a1.category << endl;
+			a1.department = "MECHANICAL ENGINEERING";
+			cout << "DEPARTMENT      :" << a1.department << endl;
+			a1.degree = 41;
+			cout << "DEGREE          :" << a1.degree << endl;
+			attendence();
+			oht();
+		}
+		else
+		{
+			cout << "\n\nYOU HAVE ENTERED AN INVALID PASSWORD. PLEASE TRY AGAIN.\n";
+			cout << "YOUR TRIES LEFT: " << y <<"\n\n\n"<< endl;
+
+		}
+	}
+}
+void attendence()
+{
+	double z, w, s;
+	int d;
+	cout << "\n\n\n                                      ATTENDENCE PERCENTAGE    \n\n                     ";
+	string sub[5] = { "CALCULUS","CHEMISTRY","PROGRAMMING","ISLAMIYAT","ENGLISH" };
+	for (int i = 0; i <= 4; i++) {
+		cout << "\n\n" << sub[i] << "\n" << endl;
+		cout << "ENTER THE TOTAL NUMBER OF CLASSES    : ";
+		cin >> z;
+		cout << "ENTER THE CLASSES ATTENDED BY STUDENT: ";
+		cin >> w;
+		s = (w / z * 100);
+		cout << "YOUR ATTENDENCE IS                   : " << s << " %" << endl;
+		if (s < 75)
+		{
+			cout << "\nSTUDENT IS UNABLE TO CLEAR THE SUBJECT DUE TO THE SHORTAGE OF ATTENDENCE." << endl;
+		}
+		else if (s >= 75 && s <= 85)
+		{
+			cout << "\nPLEASE FOCUS ON YOUR ATTENDENCE IN ORDER TO AVOID PROBATION." << endl;
+		}
+		else if (s > 85)
+		{
+			cout << "\nATTENDENCE IS GOOD. KEEP IT UP." << endl;
+
+		}
+
+	}
+}
+	
+void oht()
+{
+	cout << "\n\n\n                                        QUIZES  DETAILS" << endl;
+	qqq();
+	cout << "\n\n\n                                       FIRST OHT DETAILS" << endl;
+	aaa();
+	cout << "\n\n\n                                       SECOND OHT DETAILS" << endl;
+	aaa();
+	cout << "\n\n\n                                        FINALS  DETAILS" << endl;
+	eee();
+}
+	
+ void aaa()
+
+ {
+	 string a[7][4];
+
+
+	 a[0][0] = " SUBJECTS    ";
+	 a[2][0] = " CALCULUS    ";
+	 a[3][0] = " PROGRAMMING ";
+	 a[4][0] = " ISLAMIYAT   ";
+	 a[5][0] = " CHEMISTRY   ";
+	 a[6][0] = " ENGLISH     ";
+	 a[0][1] = "                 TOTAL     ";
+	 a[0][2] = "        OBTAINED           ";
+	 a[0][3] = "AVERAGE            ";
+
+	 cout << "\n\nENTER THE TOTAL MARKS OF CALCULUS       : ";
+	 cin >> a[2][1];
+	 cout << "ENTER THE TOTAL MARKS OF PROGRAMMING    : ";
+	 cin >> a[3][1];
+	 cout << "ENTER THE TOTAL MARKS OF ISLAMIYAT      : ";
+	 cin >> a[4][1];
+	 cout << "ENTER THE TOTAL MARKS OF CHEMISTRY      : ";
+	 cin >> a[5][1];
+	 cout << "ENTER THE TOTAL MARKS OF ENGLISH        : ";
+	 cin >> a[6][1];
+
+
+
+
+
+
+	 cout << "\n\nENTER THE OBTAINED MARKS OF CALCULUS     : ";
+	 cin >> a[2][2];
+	 cout << "ENTER THE OBTAINED MARKS OF PROGRAMMING  : ";
+	 cin >> a[3][2];
+	 cout << "ENTER THE OBTAINED MARKS OF ISLAMIYAT    : ";
+	 cin >> a[4][2];
+	 cout << "ENTER THE OBTAINED MARKS OF CHEMISTRY    : ";
+	 cin >> a[5][2];
+	 cout << "ENTER THE OBTAINED MARKS OF ENGLISH      : ";
+	 cin >> a[6][2];
+
+
+	 cout << "\n\nENTER THE AVERAGE MARKS OF CALCULUS     : ";
+	 cin >> a[2][3];
+	 cout << "ENTER THE AVERAGE MARKS OF PROGRAMMING  : ";
+	 cin >> a[3][3];
+	 cout << "ENTER THE AVERAGE MARKS OF ISLAMIYAT    : ";
+	 cin >> a[4][3];
+	 cout << "ENTER THE AVERAGE MARKS OF CHEMISTRY    : ";
+	 cin >> a[5][3];
+	 cout << "ENTER THE AVERAGE MARKS OF ENGLISH      : ";
+	 cin >> a[6][3];
+	 cout << "\n\n";
+
+	 for (int d = 0; d <= 6; d++) {
+		 for (int u = 0; u <= 3; u++) {
+
+			 cout << setw(20) << a[d][u];
+		 }
+		 cout << endl;
+
+	 }
+
+	 float a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a13, a14, a15, a16, a22, a33, a44, a55, a66, a77, a88, a99, a222, a333;
+	 stringstream s1(a[2][1]);
+	 stringstream s2(a[2][2]);
+	 stringstream s3(a[2][3]);
+	 stringstream s4(a[3][1]);
+	 stringstream s5(a[3][2]);
+	 stringstream s6(a[3][3]);
+	 stringstream s7(a[4][1]);
+	 stringstream s8(a[4][2]);
+	 stringstream s9(a[4][3]);
+	 stringstream s10(a[5][1]);
+	 stringstream s11(a[5][2]);
+	 stringstream s13(a[5][3]);
+	 stringstream s14(a[6][1]);
+	 stringstream s15(a[6][2]);
+	 stringstream s16(a[6][3]);
+
+	 s1 >> a1;
+	 s2 >> a2;
+	 s3 >> a3;
+	 s4 >> a4;
+	 s5 >> a5;
+	 s6 >> a6;
+	 s7 >> a7;
+	 s8 >> a8;
+	 s9 >> a9;
+	 s10 >> a10;
+	 s11 >> a11;
+	 s13 >> a13;
+	 s14 >> a14;
+	 s15 >> a15;
+	 s16 >> a16;
+
+	 cout << "\n\n\nYOUR OHT ACCUMULATIVE SCORE CALCULATION.\n\n " << endl;
+	 cout << "EVERY OHT HAS WEIGHTAGE OF 15 MARKS OUT OF ABSOLUTE 100." << endl;
+	 cout << "\nCALCULATIONS.\n\n";
+	 cout << "CALCULUS\n\n";
+	 a22 = ((a2) / (a1) * 15);
+	 a33 = ((a3) / (a1) * 15);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTEEN IS     : " << a22 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTEEN IS   : " << a33 << endl;
+	 cout << "\n\nPROGRAMMING\n\n";
+	 a44 = ((a5) / (a4) * 15);
+	 a55 = ((a6) / (a4) * 15);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTEEN IS     : " << a44 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTEEN IS   : " << a55 << endl;
+	 cout << "\n\nISLAMIYAT\n\n";
+	 a66 = ((a8) / (a7) * 15);
+	 a77 = ((a9) / (a7) * 15);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTEEN IS     : " << a66 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTEEN IS   : " << a77 << endl;
+	 cout << "\n\nCHEMISTRY\n\n";
+	 a88 = ((a11) / (a10) * 15);
+	 a99 = ((a13) / (a10) * 15);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTEEN IS     : " << a88 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTEEN IS   : " << a99 << endl;
+	 cout << "\n\nENGLISH\n\n";
+	 a222 = ((a15) / (a14) * 15);
+	 a333 = ((a16) / (a14) * 15);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTEEN IS     : " << a222 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTEEN IS   : " << a333 << endl;
+	 
+
+ }
+ void eee()
+ {
+	 string a[7][4];
+
+
+	 a[0][0] = " SUBJECTS    ";
+	 a[2][0] = " CALCULUS    ";
+	 a[3][0] = " PROGRAMMING ";
+	 a[4][0] = " ISLAMIYAT   ";
+	 a[5][0] = " CHEMISTRY   ";
+	 a[6][0] = " ENGLISH     ";
+	 a[0][1] = "                 TOTAL     ";
+	 a[0][2] = "        OBTAINED           ";
+	 a[0][3] = "AVERAGE            ";
+
+	 cout << "\n\nENTER THE TOTAL MARKS OF CALCULUS       : ";
+	 cin >> a[2][1];
+	 cout << "ENTER THE TOTAL MARKS OF PROGRAMMING    : ";
+	 cin >> a[3][1];
+	 cout << "ENTER THE TOTAL MARKS OF ISLAMIYAT      : ";
+	 cin >> a[4][1];
+	 cout << "ENTER THE TOTAL MARKS OF CHEMISTRY      : ";
+	 cin >> a[5][1];
+	 cout << "ENTER THE TOTAL MARKS OF ENGLISH        : ";
+	 cin >> a[6][1];
+
+
+
+
+
+
+	 cout << "\n\nENTER THE OBTAINED MARKS OF CALCULUS     : ";
+	 cin >> a[2][2];
+	 cout << "ENTER THE OBTAINED MARKS OF PROGRAMMING  : ";
+	 cin >> a[3][2];
+	 cout << "ENTER THE OBTAINED MARKS OF ISLAMIYAT    : ";
+	 cin >> a[4][2];
+	 cout << "ENTER THE OBTAINED MARKS OF CHEMISTRY    : ";
+	 cin >> a[5][2];
+	 cout << "ENTER THE OBTAINED MARKS OF ENGLISH      : ";
+	 cin >> a[6][2];
+
+
+	 cout << "\n\nENTER THE AVERAGE MARKS OF CALCULUS     : ";
+	 cin >> a[2][3];
+	 cout << "ENTER THE AVERAGE MARKS OF PROGRAMMING  : ";
+	 cin >> a[3][3];
+	 cout << "ENTER THE AVERAGE MARKS OF ISLAMIYAT    : ";
+	 cin >> a[4][3];
+	 cout << "ENTER THE AVERAGE MARKS OF CHEMISTRY    : ";
+	 cin >> a[5][3];
+	 cout << "ENTER THE AVERAGE MARKS OF ENGLISH      : ";
+	 cin >> a[6][3];
+	 cout << "\n\n";
+
+	 for (int d = 0; d <= 6; d++) {
+		 for (int u = 0; u <= 3; u++) {
+
+			 cout << setw(20) << a[d][u];
+		 }
+		 cout << endl;
+
+	 }
+
+	 float a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a13, a14, a15, a16, a22, a33, a44, a55, a66, a77, a88, a99, a222, a333;
+	 stringstream s1(a[2][1]);
+	 stringstream s2(a[2][2]);
+	 stringstream s3(a[2][3]);
+	 stringstream s4(a[3][1]);
+	 stringstream s5(a[3][2]);
+	 stringstream s6(a[3][3]);
+	 stringstream s7(a[4][1]);
+	 stringstream s8(a[4][2]);
+	 stringstream s9(a[4][3]);
+	 stringstream s10(a[5][1]);
+	 stringstream s11(a[5][2]);
+	 stringstream s13(a[5][3]);
+	 stringstream s14(a[6][1]);
+	 stringstream s15(a[6][2]);
+	 stringstream s16(a[6][3]);
+
+	 s1 >> a1;
+	 s2 >> a2;
+	 s3 >> a3;
+	 s4 >> a4;
+	 s5 >> a5;
+	 s6 >> a6;
+	 s7 >> a7;
+	 s8 >> a8;
+	 s9 >> a9;
+	 s10 >> a10;
+	 s11 >> a11;
+	 s13 >> a13;
+	 s14 >> a14;
+	 s15 >> a15;
+	 s16 >> a16;
+
+	 cout << "\n\n\nYOUR FINALS ACCUMULATIVE SCORE CALCULATION.\n\n " << endl;
+	 cout << "EVERY FINAL HAS WEIGHTAGE OF 50 MARKS OUT OF ABSOLUTE 100." << endl;
+	 cout << "\nCALCULATIONS.\n\n";
+	 cout << "CALCULUS\n\n";
+	 a22 = ((a2) / (a1) * 50);
+	 a33 = ((a3) / (a1) * 50);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTY IS     : " << a22 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTY IS   : " << a33 << endl;
+	 cout << "\n\nPROGRAMMING\n\n";
+	 a44 = ((a5) / (a4) * 50);
+	 a55 = ((a6) / (a4) * 50);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTY IS     : " << a44 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTY IS   : " << a55 << endl;
+	 cout << "\n\nISLAMIYAT\n\n";
+	 a66 = ((a8) / (a7) * 50);
+	 a77 = ((a9) / (a7) * 50);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTY IS     : " << a66 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTY IS   : " << a77 << endl;
+	 cout << "\n\nCHEMISTRY\n\n";
+	 a88 = ((a11) / (a10) * 50);
+	 a99 = ((a13) / (a10) * 50);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTY IS     : " << a88 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTY IS   : " << a99 << endl;
+	 cout << "\n\nENGLISH\n\n";
+	 a222 = ((a15) / (a14) * 50);
+	 a333 = ((a16) / (a14) * 50);
+	 cout << "YOUR ACCUMULATIVE SCORE OUT OF FIFTY IS     : " << a222 << endl;
+	 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF FIFTY IS   : " << a333 << endl;
+
+
+
+ }
+ void qqq()
+ {
+	 
+	 
+		 string a[7][4];
+
+
+		 a[0][0] = " SUBJECTS    ";
+		 a[2][0] = " CALCULUS    ";
+		 a[3][0] = " PROGRAMMING ";
+		 a[4][0] = " ISLAMIYAT   ";
+		 a[5][0] = " CHEMISTRY   ";
+		 a[6][0] = " ENGLISH     ";
+		 a[0][1] = "                 TOTAL     ";
+		 a[0][2] = "        OBTAINED           ";
+		 a[0][3] = "AVERAGE            ";
+
+		 cout << "\n\nENTER THE TOTAL MARKS OF QUIZES OF CALCULUS       : ";
+		 cin >> a[2][1];
+		 cout << "ENTER THE TOTAL MARKS OF QUIZES OF PROGRAMMING    : ";
+		 cin >> a[3][1];
+		 cout << "ENTER THE TOTAL MARKS OF QUIZES OF ISLAMIYAT      : ";
+		 cin >> a[4][1];
+		 cout << "ENTER THE TOTAL MARKS OF QUIZES OF CHEMISTRY      : ";
+		 cin >> a[5][1];
+		 cout << "ENTER THE TOTAL MARKS OF QUIZES OF ENGLISH        : ";
+		 cin >> a[6][1];
+
+
+
+
+
+
+		 cout << "\n\nENTER THE TOTAL OBTAINED MARKS OF CALCULUS     : ";
+		 cin >> a[2][2];
+		 cout << "ENTER THE OBTAINED TOTAL MARKS OF PROGRAMMING  : ";
+		 cin >> a[3][2];
+		 cout << "ENTER THE OBTAINED TOTAL MARKS OF ISLAMIYAT    : ";
+		 cin >> a[4][2];
+		 cout << "ENTER THE OBTAINED TOTAL MARKS OF CHEMISTRY    : ";
+		 cin >> a[5][2];
+		 cout << "ENTER THE OBTAINED TOTAL MARKS OF ENGLISH      : ";
+		 cin >> a[6][2];
+
+
+		 cout << "\n\nENTER THE OVERALL AVERAGE MARKS OF CALCULUS     : ";
+		 cin >> a[2][3];
+		 cout << "ENTER THE AVERAGE OVERALL MARKS OF PROGRAMMING  : ";
+		 cin >> a[3][3];
+		 cout << "ENTER THE AVERAGE OVERALL MARKS OF ISLAMIYAT    : ";
+		 cin >> a[4][3];
+		 cout << "ENTER THE AVERAGE OVERALL MARKS OF CHEMISTRY    : ";
+		 cin >> a[5][3];
+		 cout << "ENTER THE AVERAGE OVERALL MARKS OF ENGLISH      : ";
+		 cin >> a[6][3];
+		 cout << "\n\n";
+
+		 for (int d = 0; d <= 6; d++) {
+			 for (int u = 0; u <= 3; u++) {
+
+				 cout << setw(20) << a[d][u];
+			 }
+			 cout << endl;
+
+		 }
+
+		 float a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a13, a14, a15, a16, a22, a33, a44, a55, a66, a77, a88, a99, a222, a333;
+		 stringstream s1(a[2][1]);
+		 stringstream s2(a[2][2]);
+		 stringstream s3(a[2][3]);
+		 stringstream s4(a[3][1]);
+		 stringstream s5(a[3][2]);
+		 stringstream s6(a[3][3]);
+		 stringstream s7(a[4][1]);
+		 stringstream s8(a[4][2]);
+		 stringstream s9(a[4][3]);
+		 stringstream s10(a[5][1]);
+		 stringstream s11(a[5][2]);
+		 stringstream s13(a[5][3]);
+		 stringstream s14(a[6][1]);
+		 stringstream s15(a[6][2]);
+		 stringstream s16(a[6][3]);
+
+		 s1 >> a1;
+		 s2 >> a2;
+		 s3 >> a3;
+		 s4 >> a4;
+		 s5 >> a5;
+		 s6 >> a6;
+		 s7 >> a7;
+		 s8 >> a8;
+		 s9 >> a9;
+		 s10 >> a10;
+		 s11 >> a11;
+		 s13 >> a13;
+		 s14 >> a14;
+		 s15 >> a15;
+		 s16 >> a16;
+
+		 cout << "\n\n\nYOUR QUIZES ACCUMULATIVE SCORE CALCULATION.\n\n " << endl;
+		 cout << "EVERY QUIZ HAS WEIGHTAGE OF 20 MARKS OUT OF ABSOLUTE 100." << endl;
+		 cout << "\nCALCULATIONS.\n\n";
+		 cout << "CALCULUS\n\n";
+		 a22 = ((a2) / (a1) * 20);
+		 a33 = ((a3) / (a1) * 20);
+		 cout << "YOUR ACCUMULATIVE SCORE OUT OF TWENTY IS     : " << a22 << endl;
+		 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF TWENTY IS   : " << a33 << endl;
+		 cout << "\n\nPROGRAMMING\n\n";
+		 a44 = ((a5) / (a4) * 20);
+		 a55 = ((a6) / (a4) * 20);
+		 cout << "YOUR ACCUMULATIVE SCORE OUT OF TWENTY IS     : " << a44 << endl;
+		 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF TWENTY IS   : " << a55 << endl;
+		 cout << "\n\nISLAMIYAT\n\n";
+		 a66 = ((a8) / (a7) * 20);
+		 a77 = ((a9) / (a7) * 20);
+		 cout << "YOUR ACCUMULATIVE SCORE OUT OF TWENTY IS     : " << a66 << endl;
+		 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF TWENTY IS   : " << a77 << endl;
+		 cout << "\n\nCHEMISTRY\n\n";
+		 a88 = ((a11) / (a10) * 20);
+		 a99 = ((a13) / (a10) * 20);
+		 cout << "YOUR ACCUMULATIVE SCORE OUT OF TWENTY IS     : " << a88 << endl;
+		 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF TWENTY IS   : " << a99 << endl;
+		 cout << "\n\nENGLISH\n\n";
+		 a222 = ((a15) / (a14) * 20);
+		 a333 = ((a16) / (a14) * 20);
+		 cout << "YOUR ACCUMULATIVE SCORE OUT OF TWENTY IS     : " << a222 << endl;
+		 cout << "YOUR ACCUMULATIVE AVERAGE OUT OF TWENTY IS   : " << a333 << endl;
+
+
+
+	 
+
+ }
